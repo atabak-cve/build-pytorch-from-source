@@ -12,7 +12,7 @@ ARG MINICONDA_VERSION
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update -qq && \
-    apt install -y --no-install-recommends wget git ccache && \
+    apt install -y --no-install-recommends wget git ccache libnuma-dev openmpi-bin libopenmpi-dev vim-athena tmux ack openssh-server && \
     rm -rf /var/cache/apk/*
 
 # Step 1: Install conda and Python.
