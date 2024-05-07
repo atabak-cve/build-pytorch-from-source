@@ -70,3 +70,8 @@ word) software, so use it at your own risk!
 
 This is not an official CentML product. My initial motivation to build it is only for 
 my own convenience.
+
+## Pytorch 2.0
+This issue can affect us:
+https://github.com/pytorch/pytorch/issues/100618#issuecomment-1586328253
+
